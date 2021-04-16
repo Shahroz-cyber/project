@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body{
+
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    padding: 0px auto;
+    float: left;
+
+}
+
+#contact-container{
+    width: 100%;
+    height: 2000px;
+    background-color: orange;
+    margin: 0px auto;
+    padding: 0px auto;
+    float: left;
+}
+#contact-headerheader{
+    width: 100%;
+    height: 15%;
+
+    margin: 0px auto;
+    padding: 0px auto;
+    float: left;
+
+
+}
+
+
+#nav-bar{
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+}
+ul{
+    width: 60%;
+    list-style-type: none;
+    overflow: hidden;
+
+
+    float: right;
+
+}
+li{
+    width:19%;
+    float: left;
+
+}
+li a{
+    display: block;
+
+    text-decoration: none;
+    font-size:12pt;
+    color: silver;
+    font-family: Arial,Helvetica,sans-serif;
+
+
+}
+li a:hover{
+    color:#10846F;
+
+}
+
+#online{
+    background-color: #10846F;
+    text-align: center;
+    width: 160px;
+    height: 40px;
+    color: white;
+    font-size: 14pt;
+    border: 1px solid darkgreen;
+}
+#online:hover{
+    color:#10846F;
+    background-color: white;
+
+
+}
+#contact{
+    color: #10846F;
+}
+#food{
+    color: #10846F;
+    margin-left: -25%;
+    color: silver;
+
+}
+#food:hover{
+    color: #10846F;
+}
+
+#row-1{
+    width: 100%;
+    height: 25%;
+
+    margin-top: 10%;
+
+}
+#column-name{
+    width: 46%;
+    height: 120%;
+    background-color: white;
+    margin: 0px auto;
+    padding: 0px auto;
+
+}
+#contact-header{
+    width: 100%;
+    height: 5%;
+    margin: 0px auto;
+    padding: 0px auto;
+
+}
+#us{
+    transform: rotate(-10deg);
+    font-size: 20pt;
+    font-family: "Calisto MT";
+    text-align: center;
+    color: cadetblue;
+
+    text-shadow: #c8c8c8 1px 1px 0px, #b4b4b4 0px 2px 0px, #a0a0a0 0px 3px 0px, rgba(140, 140, 140, 0.498039) 0px 4px 0px, #787878 0px 0px 0px, rgba(0, 0, 0, 0.498039) 0px 5px 10px;
+
+}
+#col-1{
+    width: 45%;
+    height: 20%;
+
+    margin-top: 13%;
+}
+#para{
+    color: #10846F;
+    font-size: 12pt;
+    margin-left: 10%;
+
+}
+#col-2{
+    width: 50%;
+    height: 75%;
+
+    float: right;
+    margin-top: -22%;
+
+}
+.col-heading{
+    padding: 0px 0px 0px 30px;
+
+}
+.information{
+    color: #10846F;
+}
+.text{
+    border-radius: 0;
+    font: normal normal normal 13px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+
+    border-width: 0 0 1px 0;
+    background-color: rgba(255, 255, 255, 1);
+    box-sizing: border-box !important;
+    color: #10846F;
+    border-style: solid;
+    border-color: rgba(16, 132, 111, 1);
+    padding: 3px;
+    margin: 0;
+    max-width: 100%;
+    flex: 1;
+    text-overflow: ellipsis;
+}
+#sumbit{
+    margin: 0px auto;
+    padding: 0px auto;
+    width: 35%;
+    height: 8%;
+    background-color: white;
+    color: #10846F;
+    border: 1px solid #10846F;
+    margin-left: 24%;
+    margin-top: 10%;
+}
+#sumbit:hover{
+    background-color: #10846F;
+    color: white;
+}
+#row-2{
+    width: 100%;
+    height: 22%;
+
+    float: left;
+}
+
+#column-map{
+
+    width: 421px;
+    height: 50%;
+    margin: 0px auto;
+    padding: 0px auto;
+
+}
+#map{
+    width: 143%;
+    height: 200%;
+
+    margin-left: -24%;
+    border: 10px solid white;
+}
+#row-3{
+    width: 100%;
+    height: 22%;
+
+    float: left;
+}
+#column-pink{
+    width: 45%;
+    border: 10px solid white;
+    background-color: pink;
+    height: 95%;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+
+
+
+
+
+
