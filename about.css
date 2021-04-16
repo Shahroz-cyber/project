@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body{
+
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    padding: 0px auto;
+    float: left;
+
+}
+
+#main-container{
+    width: 100%;
+    height: auto;
+    background-color: orange;
+    margin: 0px auto;
+    padding: 0px auto;
+    float: left;
+}
+#header-container{
+    width: 100%;
+    height: 20%;
+
+    margin: 0px auto;
+    padding: 0px auto;
+    float: left;
+
+
+}
+
+
+#nav-bar{
+    width: 100%;
+    height: 10%;
+
+    margin: 0px auto;
+}
+ul{
+    width: 60%;
+    list-style-type: none;
+    overflow: hidden;
+
+    float: right;
+
+}
+li{
+    width:19%;
+    float: left;
+
+}
+li a{
+    display: block;
+
+    text-decoration: none;
+    font-size:12pt;
+    color: silver;
+    font-family: Arial,Helvetica,sans-serif;
+
+
+}
+li a:hover{
+    color:#10846F;
+
+}
+#about{
+    color: #10846F;
+}
+#food{
+    color: #10846F;
+    margin-left: -25%;
+    color: silver;
+
+}
+#food:hover{
+    color: #10846F;
+}
+
+#online{
+    background-color: #10846F;
+    text-align: center;
+    width: 160px;
+    height: 40px;
+    color: white;
+    font-size: 14pt;
+    border: 1px solid darkgreen;
+
+}
+#online:hover{
+    color:#10846F;
+    background-color: white;
+
+
+}
+
+#main-row-div{
+
+    width: 75%;
+    height: 900px;
+    margin: 0px auto;
+    margin-top: 15%;
+}
+.col-div{
+    width: 50%;
+    height:100%;
+    float: left;
+    z-index: 0;
+    position: relative;
+}
+
+#row-1{
+    width: 90%;
+    height:380px;
+    background-color: black;
+    background-image: url("images/about_bg_leaves.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0px auto;
+    padding: 0px auto;
+    margin-left: 5%;
+    float: left;
+}
+
+#row-2{
+    width: 100%;
+    height: 450px;
+
+    margin: 0px auto;
+    padding: 0px auto;
+    float: left;
+}
+#row-2 .flower{
+    width: 22%;
+    height: 16%;
+    margin: 0px auto;
+    padding: 0px auto;
+    float: left;
+    margin-top: 40%;
+    margin-left: 10%;
+
+}
+
+
+#row-3{
+
+    width: 100%;
+    height:200px;
+
+    float: left;
+    margin: 0px auto;
+}
+
+#row-4{
+    width: 100%;
+    height: 650px;
+    background-color:black;
+    background-image: url("images/about_bg_kitchen.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 10px solid white;
+    margin: 0px auto;
+    padding: 0px auto;
+    float: left;
+
+}
+
+
+#white_bg{
+    background-color: white;
+    margin: 0px auto;
+    padding: 0px auto;
+    width: 45%;
+    height: 60%;
+    top: 40%;
+    right: 25%;
+    position: absolute;
+    z-index: 1;
+}
+
+#about-us{
+    color: #10846F;
+    transform: rotate(-10deg);
+    font-size: 14pt;
+    text-align: center;
+    font: italic normal bold 30px/1.4em dancingscript-regular,'dancing script',cursive;
+    width: 100%;
+    height: auto;
+    margin-top: 20%;
+
+}
+
+#paragraph{
+    color: #10846F;
+    display: block;
+    text-align: center;
+    margin-top: 10%;
+    overflow-x: auto;
+    overflow-y: scroll;
+    font-size: 15px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+
+
+
